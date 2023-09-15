@@ -1,4 +1,9 @@
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
    margin: 0;
    padding: 0;
 }
@@ -121,21 +126,22 @@ nav a {
    color: #fff;
    text-align: center;
    width: 95%;
-   position: absolute;padding: 50px;
+   position: absolute;
+   padding: 50px;
 }
 
 address p {
    margin: 10px 0;
 }
 
-.contact-main {
+.contact-main :hover {
    padding: 10px 20px;
    background-color: #187a7a;
-      transition: 0.4s;
+   transition: 0.4s;
 }
 
 
-.contact-main2:hover {
+.contact-main2 {
    padding: 10px 20px;
    background-color: #187a7a;
    transition: 0.4s;
@@ -144,5 +150,5 @@ address p {
 .contact-main3:hover {
    padding: 10px 20px;
    background-color: #187a7a;
-      transition: 0.4s;
+   transition: 0.4s;
 }
